@@ -86,24 +86,6 @@ Run the full pipeline in Google Colab — no local setup required.
 | 17 | Clean OOP wrapper class |
 | 18 | PSNR & SSIM quality metrics (Bonus) |
 | 19 | Final summary & next steps |
-
----
-
-## 🏗️ Project Structure
-
-```
-AI-HD-Image-Enhancer-Real-ESRGAN_x4plus/
-│
-├── app.py                  # Gradio web app (deployed on HF Spaces)
-├── requirements.txt        # Python dependencies
-├── AI_HD_Enhancer.ipynb    # Full Google Colab notebook (19 sections)
-│
-├── input/                  # Input images folder (Colab)
-├── output/                 # Enhanced images output (Colab)
-└── weights/
-    └── RealESRGAN_x4plus.pth   # Downloaded automatically on first run
-```
-
 ---
 
 ## ⚙️ How It Works
